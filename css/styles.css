@@ -111,12 +111,13 @@ nav {
 Alert Message
 *****************************************/
 
-.alert {
+#alert {
   display: flex;
   justify-content: space-between;
   background-color: #7477bf;
   color: #fff;
   width: 90%;
+  height: max-content;
   margin: 1em auto 1em;
   border-radius: 5px;
   padding: .8em;
