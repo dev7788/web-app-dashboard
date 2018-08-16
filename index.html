@@ -12,13 +12,13 @@
   <body>
 
     <header>
-      <div class="header__logo">
+      <div id="header-logo">
         <a href="#">
           <h1>Andrew's <span style="font-weight:300">App&trade;</span></h1>
         </a>
       </div>
-      <div class="header__right">
-        <div class="header__right--bell">
+      <div id="header-right">
+        <div id="header-right-bell">
           <a href="#">
             <svg class="icon-bell" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
@@ -34,12 +34,12 @@
             </svg>
           </a>
         </div>
-        <div class="header__right--dot"></div>
-        <div class="header__right--divider"></div>
-        <div class="header__right--avatar">
+        <div id="header-right-dot"></div>
+        <div id="header-right-divider"></div>
+        <div id="header-right-avatar">
           <a href="#"><img class="profile-img" src="img/andrew.jpg" alt="Andrew's Profile Picture"></a>
         </div>
-        <div class="header__right--name">
+        <div id="header-right-name">
           <a href="#">Andrew Thomas</a>
         </div>
       </div>
@@ -135,17 +135,28 @@
         </ul>
       </nav>
 
-      <div id="alert">
-        <div class="alert-text">
-          <span class="alert-bold">Alert</span>
-          <span class="alert-message">Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.</span>
+      <div class="dashboard-top-container">
+        <div class="tab-search-container">
+          <div class="dashboard-tab">
+            Dashboard
+          </div>
+          <div class="shaded-background"></div>
         </div>
-        <div class="alert-close">
-          <a href="#" id="alert-button"><img class="cross-img" src="img/cross.png" alt="Alert Close Button"></a>
+
+
+
+        <div id="alert">
+          <div class="alert-text">
+            <span class="alert-bold">Alert</span>
+            <span class="alert-message">Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.</span>
+          </div>
+          <div class="alert-close">
+            <a href="#" id="alert-button"><img class="cross-img" src="img/cross.png" alt="Alert Close Button"></a>
+          </div>
         </div>
       </div>
-    </div>
 
+    </div>
 
     <script type="text/javascript" src="app.js"></script>
   </body>
